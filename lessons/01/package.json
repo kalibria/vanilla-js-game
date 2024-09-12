@@ -1,0 +1,30 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kalibria/vanilla-js-game.git"
+  },
+  "author": "Mariya Kushlianskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalibria/vanilla-js-game/issues"
+  },
+  "homepage": "https://github.com/kalibria/vanilla-js-game#readme",
+  "description": "",
+  "dependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    }
+  }
+}
